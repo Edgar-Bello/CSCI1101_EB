@@ -1,21 +1,47 @@
 <!DOCTYPE html>
-<html lang = "en">
+<html lang="en">
     <head>
-        <meta charset = "UTF-8">
-        <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>BASIC HTML TUTORIAL EXAMPLE</title>
+        <style>
+            body {
+                background-image: url('wp3709137.jpg');
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                color: white; /* Cambia el color predeterminado del texto en toda la página */
+            }
+            h1 {
+                color: red; /* Cambia el color del título principal */
+            }
+            h2 {
+                color: black; /* Cambia el color de los subtítulos */
+            }
+            p {
+                color: black; /* Cambia el color de los párrafos */
+            }
+            a {
+                color: black; /* Cambia el color de los enlaces */
+            }
+            ul li {
+                color: black; /* Cambia el color de los elementos de la lista */
+            }
+            table {
+                color: black; /* Cambia el color del texto dentro de la tabla */
+            }
+        </style>
     </head>
     <body>
         <!--Main heading-->
         <h1>WELCOME TO A PAGE ABOUT ME</h1>
         <h2>Some things about me</h2>
-        <p>Born on 09/19/2006 <br>I am Mexican <br>Computer Science Major <br>Live on the dorms <br>I love my girlfriend
-        </p>
+        <p>Born on 09/19/2006 <br>I am Mexican <br>Computer Science Major <br>Live on the dorms <br>I love my girlfriend</p>
 
-        <p>Hey there! Please visit my Github!! <a href = "https://github.com/Edgar-Bello" target = "_blank">Check it out !</a></p>
-         <!--Image-->
-        <h3>This is an image of a robot I made! </h3>
-        <img src = "IMG_4905.jpg" alt = "me">
+        <p>Hey there! Please visit my Github!! <a href="https://github.com/Edgar-Bello" target="_blank">Check it out !</a></p>
+        <!--Image-->
+        <h3>This is an image of a robot I made!</h3>
+        <img src="IMG_4905.jpg" alt="me">
         <h4>This is a list about my favorite foods:</h4>
         <ul>
             <li>Chicken Alfredo</li>
@@ -25,9 +51,9 @@
         
         <!--Table-->
         <h2>A table of the classes that I take:</h2>
-        <table border = "1">
+        <table border="1">
           <tr>
-            <td>Collge Algebra</td>
+            <td>College Algebra</td>
             <td>Intro to Csci</td>
             <td>English (Hate it)</td>
           </tr>
@@ -40,39 +66,37 @@
 
         <!--Forms-->
         <h2>Give me your information so I can steal it :)</h2>
-        <form action = "" method = "">
-            <label for = "name">Name </label><br>
-            <input type = "text" id = "name" name = "name"><br><br>
+        <form action="" method="">
+            <label for="name">Name</label><br>
+            <input type="text" id="name" name="name"><br><br>
 
-            <label for = "email">Email </label><br>
-            <input type = "email" id = "email" name = "email"><br><br>
+            <label for="email">Email</label><br>
+            <input type="email" id="email" name="email"><br><br>
             
-            <label for = "password">Password </label><br>
-            <input type = "password" id = "password" name = "password"><br><br>
+            <label for="password">Password</label><br>
+            <input type="password" id="password" name="password"><br><br>
 
-            <label for = "gender"> Gender:</label><br>
-            <input type = "radio" id = "male" name = "gender value = "male>
-            <label fpr = "male">Male</label><br>
-            <input type = "radio" id = "female" name = "gender value = "female>
-            <label fpr = "female">Female</label><br><br>
+            <label for="gender"> Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br><br>
 
-            <!--Drop out-->
-            <label for = "countr">Country</label>
-            <select id = " country" name = "country">
-                <option value = "none">  </option>
-                <option value = "us"> United States of America</option>
-                <option value = "mx>">Mexico</option>
-                <option value = "jap">Japan</option>
-                <option value = "can">Canada</option>
+            <!--Dropout-->
+            <label for="country">Country</label>
+            <select id="country" name="country">
+                <option value="none"></option>
+                <option value="us">United States of America</option>
+                <option value="mx">Mexico</option>
+                <option value="jap">Japan</option>
+                <option value="can">Canada</option>
             </select><br><br>
 
             <!--Message box-->
-            <h10>This is a message box</h10><br><br>
-            <label for = "message">Message</label><br>
-            <textarea id = "message" name = "message" row = "10" cols = "60"></textarea><br>
+            <label for="message">Message</label><br>
+            <textarea id="message" name="message" rows="10" cols="60"></textarea><br>
 
-            <input type = "submit" value = "submit">
-
+            <input type="submit" value="submit">
         </form>
     </body>
 </html>
